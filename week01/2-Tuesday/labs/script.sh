@@ -13,3 +13,5 @@ cd hello
 touch hello1.js 
 touch hello2.js
 
+
+echo "Completed script"
