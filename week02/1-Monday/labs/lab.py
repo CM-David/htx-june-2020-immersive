@@ -1,10 +1,32 @@
 
 
 # 1. Create an empty class called "Student"
+# class Student:
+#     def __init__(self, fName):
+#         self.fName = fName
+    
+#     def printName(self):
+#         print(f"hello {self.fName}")
+    
 
 
-#2. Create 5 students objects (instances of the class "Student") of "Student" types
+# #2. Create 5 students objects (instances of the class "Student") of "Student" types
+# Joe = Student("Joe")
+# Joe.printName()
+# print(Joe.fName)
 
+# Chris = Student("Chris")
+# print(Chris.greeting("Chris"))
+# print(Chris.fName)
+
+# Micah = Student("Michah")
+# print(Micah.greeting("Micah"))
+
+# Woody = Student("Woody")
+# print(Woody.greeting("Woody"))
+
+# Michael = Student("Michael")
+# print(Michael.greeting("Michael"))
 
 #3a. Create a "greeting" method inside of the class "Student" class that 
 # takes as a parameter "name". The return of the  method should be
@@ -59,12 +81,34 @@
 # Create a new class called Car with the following method :
 # CarDetails which prints "Here are details of this car"
 
+class Car():
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+    
+    def car_details(self):
+        print(f"here are the details of the car {self.make} {self.model} {self.year}")
+
 # Create a new class called Hybrid that inherits from the Car class
 #  with the following method: CarType which prints "I am a hybrid car" 
+class Hybrid(Car):
+    def __init__(self, make, model, year):
+        print("hybrid car")
+        super(Hybrid,self).__init__(make, model, year)
+    
+    def carType(self):
+        print("i am a hybrid")
 
 
 # Create a new class called Electric that inherits from the Car class
 #  with the following  method: CarType which prints "I am a hybrid car" 
+class Electric(Car):
+    def carType(self):
+        print("i am electric")
+hybrid = Hybrid("Toyota", "Prius", "2020")
+
+hybrid.car_details()
 
 # Create a Hybrid instance and an Electric instance
 # Call the method CarType on the Hybrid Instance and Electric Instance 
