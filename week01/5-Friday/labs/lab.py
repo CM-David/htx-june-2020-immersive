@@ -16,6 +16,7 @@
 # Aquarius - The Thinker 
 # Pisces - TheMystic 
 
+<<<<<<< HEAD
 zodiac = {"Aries": "The Warrior",
             "Taurus": "The Builder",
             "Gemini": "The Messenger",
@@ -36,6 +37,9 @@ for val in allZo:
   print(val)
 
 print(allZo)
+=======
+zodiac["Virgo"]
+>>>>>>> ce144b350650d760c3017f844dba3ab4d6cb3cb8
 
 #1a. Retrieve information about your zodiac from the zodiac dictionary
 vir = zodiac["Virgo"]
@@ -52,6 +56,8 @@ phonebook_dict = {
   'Elizabeth': '484-584-2923'
 }
 
+
+phonebook_dict["Kareem"] = "938-489-1234"
 # 2a. Print Elizabeth's phone number
 phone = phonebook_dict["Elizabeth"]
 print(phone)
