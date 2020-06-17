@@ -1,0 +1,28 @@
+.header{
+    height: 400px;
+    background-color: yellow;
+}
+
+.imgContainer{
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cityImage{
+    position: absolute;
+    top: -120px;
+    left: -90px;
+}
+
+.opacity{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    opacity: 50%;
+    font: white;
+    font-size: 70px;
+}
+
