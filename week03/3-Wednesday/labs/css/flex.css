@@ -4,6 +4,9 @@
     
     height: 1500px;
     background-color: turquoise;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .item{
@@ -14,4 +17,33 @@
     font-size: 30px;
     color: white;
 
+}
+/* 
+li{
+    display: inline-block;
+    background-color: mediumspringgreen;
+
+} */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: mediumturquoise;
+    height: 50px;
+}
+
+ul{
+
+}
+
+li{
+    list-style: none;
+
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
 }
