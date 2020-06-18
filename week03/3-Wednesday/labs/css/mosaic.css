@@ -50,6 +50,16 @@
     flex:3;
 }
 
+.flex4{
+    flex:4;
+}
+.flex5{
+    flex:5;
+}
+.flex6{
+    flex:6;
+}
+
 .black{
     background-color: black;
 }
@@ -79,5 +89,31 @@
 }
 
 .border{
-    border: 1px black solid;
+    border: 1px grey solid;
 }
+
+.borderright{
+    border-bottom: 1px grey solid;
+    border-top: 1px grey solid;
+    border-left: 1px grey solid;
+}
+.borderleft{
+    border-bottom: 1px grey solid;
+    border-top: 1px grey solid;
+    border-right: 1px grey solid;
+}
+.bordertop{
+    border-bottom: 1px grey solid;
+    border-top: none;
+    border-right: 1px grey solid;
+    border-left: 1px grey solid;
+}
+.borderbottom{
+    border-bottom: none;
+    border-top: 1px grey solid;
+    border-right: 1px grey solid;
+    border-left: 1px grey solid;
+}
+
+
+
