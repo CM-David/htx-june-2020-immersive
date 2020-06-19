@@ -1,1 +1,18 @@
 /* Styles for Single Level Menu */
+
+.single-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.advanced-nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.advanced-nav a{
+    display: inline-block;
+}
+
+

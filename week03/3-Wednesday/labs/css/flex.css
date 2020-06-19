@@ -9,15 +9,11 @@
     background-color: turquoise;
     display: flex;
     flex-direction: row;
-<<<<<<< HEAD
-    justify-content: center;
-=======
     justify-content: flex-start;
     align-items: center;
     /* flex-wrap: wrap; */
     
     
->>>>>>> 93aef4a6ef5077b946f92be29e4bbfcd5bb3e1be
 }
 
 .item{
@@ -90,37 +86,6 @@ main{
   
 
 }
-<<<<<<< HEAD
-/* 
-li{
-    display: inline-block;
-    background-color: mediumspringgreen;
-
-} */
-
-nav{
-    display: flex;
-    justify-content: space-between;
-
-    background-color: mediumturquoise;
-    height: 50px;
-}
-
-ul{
-
-}
-
-li{
-    list-style: none;
-
-    padding: 10px;
-}
-
-a{
-    text-decoration: none;
-    font-size: 20px;
-}
-=======
 
 footer{
   height: 200px;
@@ -198,4 +163,3 @@ a{
 /* a:hover{
   text-decoration: underline;
 } */
->>>>>>> 93aef4a6ef5077b946f92be29e4bbfcd5bb3e1be
