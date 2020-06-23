@@ -35,19 +35,19 @@
 // }
 
 var fruit = "Papayas"
-// if( fruit == 'Oranges'){
-//     console.log("Oranges");
-// }
+if( fruit == 'Oranges'){
+    console.log("Oranges");
+}
 
-// else if(fruit == "Mangos"){
-//     console.log("Mangos");
-// }
+else if(fruit == "Mangos"){
+    console.log("Mangos");
+}
 
-// else if( fruit == "Papayas"){
-//     console.log("Papayas");
-// }
-// else{
-//     console.log("Sorry no" + fruit)
+else if( fruit == "Papayas"){
+    console.log("Papayas");
+}
+else{
+    console.log("Sorry no" + fruit)
 // }
 
 // switch(fruit){
