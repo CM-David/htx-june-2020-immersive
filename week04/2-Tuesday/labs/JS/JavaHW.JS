@@ -31,7 +31,7 @@
 // Number 3
 
 
-// function total(price, service){
+                                                    // function total(price, service){
 //     if( service == 'good'){
 //     var output1 = price * 1.20
 //     return output1.toFixed(2)
@@ -63,6 +63,9 @@
 
 // Number 5
 
+// // function printSquare(){
 for (var i = 0;i < 5 ; i++){
         console.log('*'.repeat(5));
       }
+    // }
+
