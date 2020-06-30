@@ -22,8 +22,13 @@ var people = [ 'Dom', 'Lyn', 'Kirk', 'Autumn', 'Trista', 'Jesslyn', 'Kevin', 'Jo
 // //carriage return type writers line feed
 // console.log(persons.join('\r\n'));
 
-ascOrder = people.sort((a, b) => a > b ? 1 : -1);
-  console.log(ascOrder)
+// ascOrder = people.sort((a, b) => a > b ? 1 : -1);
+//   console.log(ascOrder)
 
 
-console.log("hello world ".repeat(3));
+// console.log("hello world ".repeat(3));
+
+var array = [1, 2, 3]
+
+var result = array.reduce((a,b) => a + b, 10) 
+console.log(result);

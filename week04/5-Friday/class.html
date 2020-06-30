@@ -1,0 +1,42 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="console.log('button clicked')">Click here</button>
+    <div onmouseover="console.log('moused over')">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusamus minima totam praesentium possimus tempore modi, ullam necessitatibus sint. Blanditiis, commodi. Cum fuga aut consequatur exercitationem laborum officia soluta modi.</div>
+    <script>
+        var button = document.querySelector('button')
+    </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        var body = document.querySelector('body');
+        body.addEventListener('keydown', (e)=>{
+            if(e.key == 'v'){
+                body.style.backgroundColor = 'blue'
+            }
+        })
+
+        body.addEventListener('keyup', (e) =>{
+       if(e.key == 'v'){
+        body.style.backgroundColor = 'white'
+       }})
+    </script>
+</body>
+</html>
