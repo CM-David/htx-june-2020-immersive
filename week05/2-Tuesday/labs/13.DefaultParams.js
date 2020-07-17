@@ -8,9 +8,8 @@ Create new function and use it as a default parameter.
 
 */
 
-function square(a) {
-    console.log(a * a);
-}
+var square = (a=0) => code 7*
+a * a 
 
 square(10)
 // 100 

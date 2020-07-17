@@ -14,9 +14,16 @@ it should return an object like this:
 
 
 var nums = [10, -12, 30, -1, -8, 0, 14, -33, 20];
+positive = nums.filter(function (a) { return a >= 0; }),
+    sum = positive.reduce(function (a, b) { return a + b; });
+negative = nums.filter(function (a) { return a <= 0}), 
+    neg = negative.reduce(function (a, b) {return a + b})
+
+console.log(sum);
+console.log(neg);
 
 // Write code here
 
-console.log(sumPlusMinus(nums));
+// console.log(sumPlusMinus(nums));
 // {plus: 74, minus: -54}
 
